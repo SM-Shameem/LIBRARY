@@ -134,7 +134,10 @@ a:hover {
 }
 
 /*****************************************/
-#develop { background-color:#369; color: #DDD }
-#architect { background-color:#963; color: #DDD }
-#design { background-color:#369; color: #DDD }
-#engineer { background-color:#936; color: #DDD }
+#color_1 { background-color:#369; color: #DDD; width: 25% }
+#color_2 { background-color:#963; color: #DDD; width: 25%  }
+#color_3 { background-color: darkolivegreen; color: #DDD; width: 25%  }
+#color_4 { background-color:#936; color: #DDD; width: 25%  }
+#color_5 { background-color: darkcyan; color: #DDD; width: 25%  }
+#color_6 { background-color: darkkhaki; color: #DDD; width: 25%  }
+#color_7 { background-color: indigo; color: #DDD; width: 25%  }
