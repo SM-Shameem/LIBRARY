@@ -115,6 +115,8 @@ td {
 #colSeven { width: 7%; }
 #colEight { width: 8%; }
 
+#colStyleOne { text-align: left; padding: 5px 15px; }
+
 /**************** link style *****************/
 a {
 	display: block;
