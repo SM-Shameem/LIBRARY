@@ -141,3 +141,10 @@ a:hover {
 #color_5 { background-color: darkcyan; color: #DDD; width: 25%  }
 #color_6 { background-color: darkkhaki; color: #DDD; width: 25%  }
 #color_7 { background-color: indigo; color: #DDD; width: 25%  }
+
+/*****************************************/
+pre {
+	padding: 10px 36px;
+	color: #FFF;
+	font-size: 18px;
+}
