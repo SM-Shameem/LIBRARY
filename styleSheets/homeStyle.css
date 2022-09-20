@@ -5,7 +5,7 @@
 	width: 100%;
 	height: auto;
 	padding: 25px 0px 5px;
-	background-image: url(images/background.jpg);
+	background-image: url(../images/background.jpg);
 	background-size: contain;
 }
 #HomeInfo a {
