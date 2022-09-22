@@ -1,0 +1,112 @@
+#course1, #course2, #course3, #course4, #course5, #course6, #course7, #rules,
+#reference1 {
+    width: 94%;
+    margin: 15px auto;
+    padding: 10px;
+    background-color: rgba(225, 225, 225, 0.6);
+    /* background-image: url(../images/tutorial.png); */
+    border: inset 1px #CCC;
+    border-radius: 10px;
+    color: white;
+} 
+
+#rules {
+    background-color: rgba(225, 25, 25, 0.2);
+}
+
+#course1 h1, 
+#course2 h1, 
+#course3 h1, 
+#course4 h1, 
+#course5 h1, 
+#course6 h1, 
+#course7 h1, 
+#rules h1, 
+#reference1 h1 {
+    margin: 20px auto 0px;
+    padding: 10px 10px 10px;
+    width: 90%;
+    background-color: rgba(50, 50, 50, 0.4);
+    border-bottom: solid 3px #CCC;
+    color: rgb(240, 240, 240);
+    font-size: 16px;
+    font-weight: normal;
+}
+
+#rules h1 {
+    background-color: rgba(25, 125, 225, 0.8);
+    border-bottom: solid 3px #CCC;
+    color: rgb(240, 240, 240);
+}
+
+#course1 pre, 
+#course2 pre, 
+#course3 pre, 
+#course4 pre, 
+#course5 pre, 
+#course6 pre, 
+#course7 pre, 
+#rules pre {
+    margin: 15px 0px 0px;
+    padding: 20px 0px 0px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+#rules pre {
+    margin: 25px 0px 0px;
+    color: #EEE;
+}
+
+#rules pre b {
+    padding-bottom: 5px;
+    border-bottom: solid 2px #DD8;
+    font-size: 18px;
+    text-transform: uppercase;
+    color:#DD8;
+}
+
+#course1 a, 
+#course2 a, 
+#course3 a, 
+#course4 a, 
+#course5 a, 
+#course6 a, 
+#course7 a {
+    width: 10%;
+    padding: 8px 6px;
+    margin: 0px 83.5% 15px;
+    text-align: center;
+    background-color: rgba(225, 225, 225, 0.4);
+    border: groove 2px #EEE;
+    color: #444;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+#course1 a:hover, 
+#course2 a:hover,
+#course3 a:hover,
+#course4 a:hover,
+#course5 a:hover,
+#course6 a:hover,
+#course7 a:hover 
+{
+    background-color: rgba(225, 225, 225, 0.8);
+    border: groove 2px #EEE;
+    color: #E48;
+}
+
+#buttCour_1, 
+#buttCour_2, 
+#buttCour_3, 
+#buttCour_4, 
+#buttCour_5, 
+#buttCour_6, 
+#buttCour_7 {
+    display: none;
+}
+
+#reference1 {
+    display: none;
+}

@@ -17,7 +17,7 @@ body {
 /**************** menu style *****************/
 #Menu {
 	width: 98%;	
-	height: 45px;	
+	height: 32px;	
 	margin: auto;
 }
 
@@ -66,7 +66,7 @@ body {
 /**************** table style *****************/
 table {
 	width: 98%;
-	margin: 0px auto;	
+	margin: 22px auto 0px;	
 	padding: 0px;
 	background-image: url(../images/tableBackground.jpg);
 	border: none;
