@@ -107,6 +107,17 @@
     display: none;
 }
 
+#reference1 table {
+    width: 92%;
+    margin: 20px auto 10px;
+    background: none;
+}
+
+#reference1 table th, td {
+    background-color:rgba(225, 225, 225, 0.4);
+    border: none;
+}
+
 #reference1 {
     display: none;
 }
