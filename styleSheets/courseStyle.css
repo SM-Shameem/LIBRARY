@@ -212,7 +212,13 @@
     display: none;
 }
 
-#reference1 table #additional {
+#reference1 table #additional,
+#reference2 table #additional,
+#reference3 table #additional,
+#reference4 table #additional,
+#reference5 table #additional,
+#reference6 table #additional,
+#reference7 table #additional {
     padding: 10px 20px;
     background-color:rgba(225, 225, 225, 0.8);
     border: none;
