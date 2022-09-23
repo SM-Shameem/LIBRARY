@@ -2,11 +2,17 @@ function ShowReferences(arg) {
     if (arg != 1) document.getElementById('course1').style.display = 'none';
     else document.getElementById('reference1').style.display = 'block';
     if (arg != 2) document.getElementById('course2').style.display = 'none';
+    else document.getElementById('reference2').style.display = 'block';
     if (arg != 3) document.getElementById('course3').style.display = 'none';
+    else document.getElementById('reference3').style.display = 'block';
     if (arg != 4) document.getElementById('course4').style.display = 'none';
+    else document.getElementById('reference4').style.display = 'block';
     if (arg != 5) document.getElementById('course5').style.display = 'none';
+    else document.getElementById('reference5').style.display = 'block';
     if (arg != 6) document.getElementById('course6').style.display = 'none';
+    else document.getElementById('reference6').style.display = 'block';
     if (arg != 7) document.getElementById('course7').style.display = 'none';
+    else document.getElementById('reference7').style.display = 'block';
 
     buttonCourse();
 }
@@ -21,6 +27,12 @@ function ShowCourses() {
     document.getElementById('course7').style.display = 'block';
 
     document.getElementById('reference1').style.display = 'none';
+    document.getElementById('reference2').style.display = 'none';
+    document.getElementById('reference3').style.display = 'none';
+    document.getElementById('reference4').style.display = 'none';
+    document.getElementById('reference5').style.display = 'none';
+    document.getElementById('reference6').style.display = 'none';
+    document.getElementById('reference7').style.display = 'none';
 
     buttonReference()
 }

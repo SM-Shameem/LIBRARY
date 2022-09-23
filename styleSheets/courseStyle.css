@@ -1,5 +1,7 @@
 #course1, #course2, #course3, #course4, #course5, #course6, #course7, #rules,
-#reference1 {
+#reference1, #reference2, #reference3, 
+#reference4, #reference5, #reference6, 
+#reference7 {
     width: 94%;
     margin: 15px auto;
     padding: 10px;
@@ -20,17 +22,34 @@
 #course4 h1, 
 #course5 h1, 
 #course6 h1, 
-#course7 h1, 
-#rules h1, 
-#reference1 h1 {
+#course7 h1,
+#rules h1{
     margin: 20px auto 0px;
-    padding: 10px 10px 10px;
+    padding: 10px 0px;
     width: 90%;
-    background-color: rgba(50, 50, 50, 0.4);
-    border-bottom: solid 3px #CCC;
-    color: rgb(240, 240, 240);
+    background-color: rgba(50, 50, 50, 0.6);
+    border-bottom: solid 3px #DDD;
+    color: #FFF;
     font-size: 16px;
     font-weight: normal;
+}
+
+#rules h1 {
+    padding: 10px 20px;
+    width: 88%;
+}
+
+#course1 h1 span, 
+#course2 h1 span, 
+#course3 h1 span, 
+#course4 h1 span, 
+#course5 h1 span, 
+#course6 h1 span, 
+#course7 h1 span, 
+#rules h1 span {
+    padding: 11px 20px;
+    background-color: rgba(50, 50, 50, 0.8);
+    /* color: #DDD; */
 }
 
 #rules h1 {
@@ -48,13 +67,14 @@
 #course7 pre, 
 #rules pre {
     margin: 15px 0px 0px;
-    padding: 20px 0px 0px;
+    padding: 15px 10px 0px;
     font-size: 18px;
     color: rgb(0, 0, 0);
 }
 
 #rules pre {
     margin: 25px 0px 0px;
+    padding-left: 0px;
     color: #EEE;
 }
 
@@ -107,17 +127,74 @@
     display: none;
 }
 
-#reference1 table {
+#reference1,
+#reference2,
+#reference3,
+#reference4,
+#reference5,
+#reference6,
+#reference4 {
+    padding: 10px 10px 30px;
+}
+
+#reference1 table,
+#reference2 table,
+#reference3 table,
+#reference4 table,
+#reference5 table,
+#reference6 table,
+#reference7 table {
     width: 92%;
-    margin: 20px auto 10px;
+    margin: 25px auto 10px;
     background: none;
 }
 
-#reference1 table th, td {
-    background-color:rgba(225, 225, 225, 0.4);
+#reference1 table th,
+#reference2 table th,
+#reference3 table th,
+#reference4 table th,
+#reference5 table th,
+#reference6 table th,
+#reference7 table th {
+    padding: 10px 20px;
+    background-color: rgba(225, 50, 50, 0.8);
     border: none;
+    border-bottom: solid 3px #DDD;
+    color: rgb(240, 240, 240);
+    font-size: 14px;
+    text-align: left;
+    text-transform: uppercase;
 }
 
-#reference1 {
+#reference1 table td,
+#reference2 table td,
+#reference3 table td,
+#reference4 table td,
+#reference5 table td,
+#reference6 table td,
+#reference7 table td {
+    background-color:rgba(225, 225, 225, 0.4);
+    border: none;
+    text-align: center;
+}
+
+#reference1 table #title,
+#reference2 table #title,
+#reference3 table #title,
+#reference4 table #title,
+#reference5 table #title,
+#reference6 table #title,
+#reference7 table #title {
+    width: 70%;
+    text-align: left;
+}
+
+#reference1,
+#reference2,
+#reference3,
+#reference4,
+#reference5,
+#reference6,
+#reference7 {
     display: none;
 }
