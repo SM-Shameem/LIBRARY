@@ -9,11 +9,22 @@
     /* background-image: url(../images/tutorial.png); */
     border: inset 1px #CCC;
     border-radius: 10px;
-    color: white;
 } 
 
 #rules {
     background-color: rgba(225, 25, 25, 0.2);
+}
+
+#course1 div, 
+#course2 div, 
+#course3 div, 
+#course4 div, 
+#course5 div, 
+#course6 div, 
+#course7 div, 
+#rules div {
+    width: 90%;
+    margin: 0px auto;
 }
 
 #course1 h1, 
@@ -26,17 +37,11 @@
 #rules h1{
     margin: 20px auto 0px;
     padding: 10px 0px;
-    width: 90%;
     background-color: rgba(50, 50, 50, 0.6);
     border-bottom: solid 3px #DDD;
     color: #FFF;
     font-size: 16px;
     font-weight: normal;
-}
-
-#rules h1 {
-    padding: 10px 20px;
-    width: 88%;
 }
 
 #course1 h1 span, 
@@ -45,45 +50,58 @@
 #course4 h1 span, 
 #course5 h1 span, 
 #course6 h1 span, 
-#course7 h1 span, 
-#rules h1 span {
+#course7 h1 span {
     padding: 11px 20px;
     margin-right: 15px;
     background-color: rgba(50, 50, 50, 0.8);
 }
 
-#rules h1 {
-    background-color: rgba(25, 125, 225, 0.8);
-    border-bottom: solid 3px #CCC;
-    color: rgb(240, 240, 240);
+#course1 img,
+#course2 img,
+#course3 img,
+#course4 img,
+#course5 img,
+#course6 img,
+#course7 img {
+    float: left;
+    margin: 30px 0px;
+    width: 26%;
+    height: 200px;
 }
 
-#course1 pre, 
-#course2 pre, 
-#course3 pre, 
-#course4 pre, 
-#course5 pre, 
-#course6 pre, 
-#course7 pre, 
-#rules pre {
-    margin: 15px 0px 0px;
-    padding: 15px 10px 0px;
-    font-size: 18px;
-    color: rgb(0, 0, 0);
+#course1 ol,
+#course2 ol,
+#course3 ol,
+#course4 ol,
+#course5 ol,
+#course6 ol,
+#course7 ol {
+    margin: 30px 28% 60px;
+    width: 67%;
+    font-size: 17px;
+    color: #222;
 }
 
-#rules pre {
-    margin: 25px 0px 0px;
-    padding-left: 0px;
-    color: #EEE;
+#course1 li,
+#course2 li,
+#course3 li,
+#course4 li,
+#course5 li,
+#course6 li,
+#course7 li {
+    padding: 3px;
+    border-bottom: solid 1px #BBB;
 }
 
-#rules pre b {
-    padding-bottom: 5px;
-    border-bottom: solid 2px #DD8;
-    font-size: 18px;
-    text-transform: uppercase;
-    color:#DD8;
+#course1 ol li span,
+#course2 ol li span,
+#course3 ol li span,
+#course4 ol li span,
+#course5 ol li span,
+#course6 ol li span,
+#course7 ol li span {
+    float: right;
+    margin-right: 15px;
 }
 
 #course1 a, 
@@ -93,9 +111,9 @@
 #course5 a, 
 #course6 a, 
 #course7 a {
-    width: 10%;
-    padding: 8px 6px;
-    margin: 0px 83.5% 15px;
+    margin: 0px 87.5% 20px;
+    width: 10%;    
+    padding: 8px 6px;    
     text-align: center;
     background-color: rgba(225, 225, 225, 0.4);
     border: groove 2px #EEE;
@@ -127,13 +145,38 @@
     display: none;
 }
 
+#rules h1 {
+    padding: 10px 20px;
+    width: 88%;
+    background-color: rgba(25, 125, 225, 0.8);
+    border-bottom: solid 3px #CCC;
+    color: rgb(240, 240, 240);
+}
+
+#rules pre {
+    margin: 25px 0px 0px;
+    padding: 15px 10px 0px;
+    padding-left: 0px;
+    font-size: 18px;
+    color: #EEE;
+}
+
+#rules pre b {
+    padding-bottom: 5px;
+    border-bottom: solid 2px #DD8;
+    font-size: 18px;
+    text-transform: uppercase;
+    color:#DD8;
+}
+
 #reference1,
 #reference2,
 #reference3,
 #reference4,
 #reference5,
 #reference6,
-#reference4 {
+#reference7 {
+    display: none;
     padding: 10px 10px 30px;
 }
 
@@ -198,18 +241,8 @@
 #reference5 table #title,
 #reference6 table #title,
 #reference7 table #title {
-    width: 80%;
+    width: 70%;
     text-align: left;
-}
-
-#reference1,
-#reference2,
-#reference3,
-#reference4,
-#reference5,
-#reference6,
-#reference7 {
-    display: none;
 }
 
 #reference1 table #additional,
@@ -221,10 +254,5 @@
 #reference7 table #additional {
     padding: 10px 20px;
     background-color:rgba(225, 225, 225, 0.8);
-    border: none;
-    border-bottom: solid 3px #DDD;
     color: rgb(40, 40, 40);
-    font-size: 14px;
-    text-align: left;
-    text-transform: uppercase;
 }
