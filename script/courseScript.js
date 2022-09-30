@@ -13,6 +13,8 @@ function ShowReferences(arg) {
     else document.getElementById('reference6').style.display = 'block';
     if (arg != 7) document.getElementById('course7').style.display = 'none';
     else document.getElementById('reference7').style.display = 'block';
+    if (arg != 8) document.getElementById('course8').style.display = 'none';
+    else document.getElementById('reference8').style.display = 'block';
 
     buttonCourse();
 }
@@ -25,6 +27,7 @@ function ShowCourses() {
     document.getElementById('course5').style.display = 'block';
     document.getElementById('course6').style.display = 'block';
     document.getElementById('course7').style.display = 'block';
+    document.getElementById('course8').style.display = 'block';
 
     document.getElementById('reference1').style.display = 'none';
     document.getElementById('reference2').style.display = 'none';
@@ -33,6 +36,7 @@ function ShowCourses() {
     document.getElementById('reference5').style.display = 'none';
     document.getElementById('reference6').style.display = 'none';
     document.getElementById('reference7').style.display = 'none';
+    document.getElementById('reference8').style.display = 'none';
 
     buttonReference()
 }
@@ -52,6 +56,8 @@ function buttonCourse() {
     document.getElementById('buttCour_6').style.display = 'block';
     document.getElementById('buttReff_7').style.display = 'none';
     document.getElementById('buttCour_7').style.display = 'block';
+    document.getElementById('buttReff_8').style.display = 'none';
+    document.getElementById('buttCour_8').style.display = 'block';
 }
 
 function buttonReference() {
@@ -69,4 +75,6 @@ function buttonReference() {
     document.getElementById('buttCour_6').style.display = 'none';
     document.getElementById('buttReff_7').style.display = 'block';
     document.getElementById('buttCour_7').style.display = 'none';
+    document.getElementById('buttReff_8').style.display = 'block';
+    document.getElementById('buttCour_8').style.display = 'none';
 }
