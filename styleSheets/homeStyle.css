@@ -11,6 +11,7 @@
 }
 #HomeInfo a {	
 	color: #444;
+	text-decoration: none;
 }
 
 #HomeInfo a:hover #Section {
@@ -19,8 +20,9 @@
 }
 
 #Section {
+	display: inline-block;
 	width: 96%;
-	height: 230px;
+	height: auto;
 	margin: auto;	
 	margin-bottom: 20px;
 	padding: 20px;
@@ -30,7 +32,7 @@
 
 #Section img {
 	width: 28%;
-	height: 100%;
+	height: 220px;
 	float: left;
 }
 #Section div {
