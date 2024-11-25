@@ -2,12 +2,11 @@
 /* CSS Document */
 
 body {
-	margin: 20px 0px;
-	background-color: #EEE;
+	margin: 0px 0px;
 }
 
 #Container {
-	width: 96%;
+	width: 100%;
 	margin: auto;
 }
 
@@ -19,15 +18,6 @@ body {
 	background-size: cover;
 	border-bottom: solid 2px #D66;
 }
-
-/* #Head {
-	width: 100%;
-	height: 425px;
-	padding-top: 30px;
-	background-image: url(../images/LOUSKYi.jpg);
-	background-size: cover;
-	border-bottom: solid 2px #D66;
-} */
 
 #Body {
 	width: 100%;
@@ -48,13 +38,13 @@ body {
 	height: 200px;
 	background-image: url(../images/footerImage.jpg);
 	background-size: cover;
-	border-top: solid 10px #EEE;
+	/* border-top: solid 10px #EEE; */
 }
 
 #Footer p {
 	width: 96%;
-	margin: 20px auto;
-	padding: 68px 0px;
+	margin: auto;
+	padding: 76px 0px;
 	border: groove 1px #666;
 	color: white;
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
