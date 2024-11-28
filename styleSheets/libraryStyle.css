@@ -9,8 +9,10 @@ body {
 /**************** div style *****************/
 #Container {
 	width: 96%;
-	margin: 15px auto;
-	background-image: url(../images/background.jpg);
+	margin: 0px auto 2px;
+	background-image: url(../images/back.jpg);
+	background-size: cover;
+	border-bottom: solid 10px rgba(0, 217, 255, 0.8);	
 	padding: 20px 6px;
 }
 
@@ -49,7 +51,7 @@ body {
 	padding: 3px 25px;
 	background-color: rgba(225, 225, 225, .8);
 	border: groove 1px #EEE;
-	color: #888;
+	color: #444;
 	font-family: Sans-serif;
 	font-size: 80%;
 	text-transform: Capitalize;
@@ -68,22 +70,22 @@ table {
 	width: 98%;
 	margin: 0px auto;	
 	padding: 0px;
-	background-image: url(../images/tableBackground.jpg);
+	/* background-image: url(../images/tableBackground.jpg); */
 	border: none;
 	font-family: Verdana, sans-serif;
 }
 
 th {
 	padding: 5px 0px;
-	background-color: rgba(50, 50, 50, .8);			
-	border: solid 1px #444;
+	background-color: rgba(100, 100, 100, 0.9);				
+	border: solid 1px rgba(100, 100, 100, 0.9);	
 	font-size: 85%;
 	color: #EEE;	
 }
 
 td {
 	padding: 4px 15px;
-	background-color: rgba(225, 225, 225, .8);			
+	background-color: rgba(225, 225, 225, .9);			
 	border: solid 1px #EEE;
 	font-size: 75%;
 	color: #444;

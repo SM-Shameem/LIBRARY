@@ -6,8 +6,7 @@
     width: 94%;
     margin: 15px auto;
     padding: 10px;
-    background-color: rgba(225, 225, 225, 0.6);
-    /* background-image: url(../images/tutorial.png); */
+    background-color: rgba(225, 225, 225, 0.9);
     border: inset 1px #CCC;
     border-radius: 10px;
     font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
@@ -248,7 +247,7 @@
 #reference6 table td,
 #reference7 table td,
 #reference8 table td {
-    background-color:rgba(225, 225, 225, 0.4);
+    background-color:rgba(241, 241, 241, 0.4);
     border: none;
     text-align: center;
 }

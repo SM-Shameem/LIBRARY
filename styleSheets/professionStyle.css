@@ -9,8 +9,10 @@ body {
 /**************** div style *****************/
 #Container {
 	width: 96%;
-	margin: 15px auto;
-	background-image: url(../images/background.jpg);
+	margin: 0px auto 2px;
+	background-image: url(../images/back.jpg);
+	background-size: cover;
+	border-bottom: solid 10px rgba(0, 217, 255, 0.8);	
 	padding: 20px 6px;
 }
 
@@ -49,7 +51,7 @@ body {
 	padding: 3px 25px;
 	background-color: rgba(225, 225, 225, .8);
 	border: groove 1px #EEE;
-	color: #888;
+	color: #444;
 	font-family: Sans-serif;
 	font-size: 80%;
 	text-transform: Capitalize;
