@@ -2,18 +2,20 @@
 /* CSS Document */
 
 body {
-	margin: 0px;
-	background-color: #EEE;	
+	margin: 15px 0px;
+	background-color: #808080;	
 }
 
 /**************** div style *****************/
 #Container {
-	width: 96%;
-	margin: 0px auto 2px;
+	width: 95%;
+	margin: 0px auto 15px;
+	padding: 20px 6px;
 	background-image: url(../images/back.jpg);
 	background-size: cover;
+	border-radius: 10px;
+	border: groove 2px #999;
 	border-bottom: solid 10px rgba(0, 217, 255, 0.8);	
-	padding: 20px 6px;
 }
 
 /**************** menu style *****************/
@@ -26,7 +28,7 @@ body {
 #Menu h1 {
 	float: left;
 	margin: 0px;
-	padding: 0px 5px;
+	padding: 0px 15px;
 	color: white;
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 	font-weight: bold;
@@ -38,7 +40,7 @@ body {
 	float: right;
 	margin: 0px;
 	margin-top: 4px;
-	padding: 0px 10px;	
+	padding: 0px 15px;	
 	list-style: none;
 }
 
@@ -50,7 +52,7 @@ body {
 #Menu li a {
 	padding: 3px 25px;
 	background-color: rgba(225, 225, 225, .8);
-	border: groove 1px #EEE;
+	border: groove 1px #CCC;
 	color: #444;
 	font-family: Sans-serif;
 	font-size: 80%;
@@ -70,15 +72,14 @@ table {
 	width: 98%;
 	margin: 0px auto;	
 	padding: 0px;
-	/* background-image: url(../images/tableBackground.jpg); */
 	border: none;
 	font-family: Verdana, sans-serif;
 }
 
 th {
 	padding: 5px 0px;
-	background-color: rgba(100, 100, 100, 0.9);				
-	border: solid 1px rgba(100, 100, 100, 0.9);	
+	background-color: rgba(226, 0, 94, 0.8);				
+	border: solid 1px rgba(226, 0, 94, 0.8);
 	font-size: 85%;
 	color: #EEE;	
 }
@@ -116,12 +117,12 @@ td {
 
 #colSeven { width: 7%; }
 #colEight { width: 8%; }
-
 /**************** link style *****************/
 a {
 	display: block;
-	padding: 3px 0px;	
-	background-color: #AAA;
+	padding: 4px 0px;	
+	background-color: #888;
+	border: groove 1px #888;
 	font-size: 75%;
 	font-weight: bold;
 	color: #DDD;
@@ -129,8 +130,7 @@ a {
 	text-align: center;
 }
 a:hover {
-	padding: 2px 0px;
+	padding: 4px 0px;
 	background-color: #555;	
-	border: groove 1px #111;
-	color: #EEE;
+	color: #00d9ff;
 }

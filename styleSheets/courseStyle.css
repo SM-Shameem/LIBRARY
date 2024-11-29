@@ -3,11 +3,11 @@
 #rules,
 #reference1, #reference2, #reference3, #reference4, 
 #reference5, #reference6, #reference7, #reference8 {
-    width: 94%;
+    width: 95%;
     margin: 15px auto;
     padding: 10px;
-    background-color: rgba(225, 225, 225, 0.9);
-    border: inset 1px #CCC;
+    background-color: rgba(202, 202, 202, 0.9);
+    border: inset 1px #DDD;
     border-radius: 10px;
     font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 } 
@@ -72,7 +72,7 @@
     margin: 30px 0px;
     width: 26%;
     height: 200px;
-    border: inset 1px #FFF;
+    border: inset 1px #dddddd;
     border-radius: 5px;
 }
 
@@ -99,7 +99,7 @@
 #course7 li,
 #course8 li {
     padding: 3px;
-    border-bottom: solid 1px #BBB;
+    border-bottom: solid 1px #adadad;
 }
 
 #course1 ol li span,
@@ -247,7 +247,7 @@
 #reference6 table td,
 #reference7 table td,
 #reference8 table td {
-    background-color:rgba(241, 241, 241, 0.4);
+    background-color:rgba(245, 245, 245, 0.4);
     border: none;
     text-align: center;
 }
@@ -274,5 +274,6 @@
 #reference8 table #additional {
     padding: 10px 20px;
     background-color:rgba(225, 225, 225, 0.8);
+    border-bottom: solid 2px rgba(225, 25, 50, 0.4);
     color: rgb(40, 40, 40);
 }
