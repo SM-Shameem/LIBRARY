@@ -8,7 +8,7 @@
     padding: 10px;
     background-color: rgba(202, 202, 202, 0.9);
     border: inset 1px #DDD;
-    border-radius: 10px;
+    border-radius: 4px;
     font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 } 
 
@@ -57,7 +57,7 @@
 #course8 h1 span {
     padding: 10px 20px;
     margin-right: 15px;
-    background-color: rgba(50, 50, 50, 0.8);
+    background-color: rgba(225, 25, 50, 0.8);
 }
 
 #course1 img,
