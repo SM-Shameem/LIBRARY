@@ -3,7 +3,7 @@
 
 body {
 	margin: 15px 0px;
-	background-color: #808080;	
+	/* background-color: #808080;	 */
 }
 
 /**************** div style *****************/
@@ -13,9 +13,10 @@ body {
 	padding: 20px 6px;
 	background-image: url(../images/back.jpg);
 	background-size: cover;
-	border-radius: 10px;
-	border: groove 1px #999;
-	border-bottom: solid 10px rgba(0, 217, 255, 0.8);	
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border: outset 2px #999;
+	border-bottom: solid 10px rgba(0, 217, 255, 0.9);	
 }
 
 /**************** menu style *****************/
@@ -39,7 +40,7 @@ body {
 #Menu ul {
 	float: right;
 	margin: 0px;
-	margin-top: 4px;
+	margin-top: 5px;
 	padding: 0px 15px;	
 	list-style: none;
 }
@@ -51,7 +52,7 @@ body {
 
 #Menu li a {
 	padding: 3px 25px;
-	background-color: rgba(225, 225, 225, .8);
+	background-color: rgba(225, 225, 225, .9);
 	border: groove 1px #CCC;
 	color: #444;
 	font-family: Sans-serif;
@@ -69,17 +70,19 @@ body {
 
 /**************** table style *****************/
 table {
-	width: 98%;
+	width: 96%;
 	margin: 0px auto;	
 	padding: 0px;
+	background-image: url(../images/back.jpg);
+	background-size: cover;
 	border: none;
 	font-family: Verdana, sans-serif;
 }
 
 th {
 	padding: 5px 0px;
-	background-color: rgba(226, 0, 94, 0.8);				
-	border: solid 1px rgba(226, 0, 94, 0.8);
+	background-color: rgba(75, 75, 75, 0.8);				
+	border: solid 1px rgba(75, 75, 75, 0.8);
 	font-size: 85%;
 	color: #EEE;	
 }

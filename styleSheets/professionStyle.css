@@ -3,7 +3,7 @@
 
 body {
 	margin: 15px 0px;
-	background-color: #808080;
+	/* background-color: #808080; */
 }
 
 /**************** div style *****************/
@@ -13,9 +13,10 @@ body {
 	padding: 20px 6px;
 	background-image: url(../images/back.jpg);
 	background-size: cover;
-	border-radius: 10px;
-	border: groove 1px #999;
-	border-bottom: solid 10px rgba(0, 217, 255, 0.8);	
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border: outset 2px #999;
+	border-bottom: solid 10px rgba(0, 217, 255, 0.9);	
 }
 
 /**************** menu style *****************/
@@ -51,7 +52,7 @@ body {
 
 #Menu li a {
 	padding: 3px 25px;
-	background-color: rgba(225, 225, 225, .8);
+	background-color: rgba(225, 225, 225, .9);
 	border: groove 1px #CCC;
 	color: #444;
 	font-family: Sans-serif;
@@ -123,7 +124,7 @@ td {
 /**************** link style *****************/
 a {
 	display: block;
-	padding: 4px 0px;	
+	padding: 5px 0px;
 	background-color: #AAA;
 	font-size: 75%;
 	font-weight: bold;
@@ -132,7 +133,7 @@ a {
 	text-align: center;
 }
 a:hover {
-	padding:4px 0px;
+	padding: 5px 0px;
 	background-color: #555;	
 	color: #00d9ff;
 }
