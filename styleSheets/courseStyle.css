@@ -1,10 +1,10 @@
 #course1, #course2, #course3, #course4, 
 #course5, #course6, #course7, #course8 {
-    width: 94.5%;
+    width: 94.4%;
     margin: 15px auto;
     padding: 10px;
     background-color: rgba(200, 200, 200, 0.4);	
-	border: outset 1px rgba(200, 200, 200, 0.4);
+	border: outset 1px rgba(114, 114, 114, 0.8);
     border-radius: 4px;
     font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 }
