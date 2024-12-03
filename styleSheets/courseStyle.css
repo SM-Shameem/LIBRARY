@@ -45,7 +45,7 @@
     margin: 20px auto 0px;
     padding: 10px 0px;
     background-color: rgba(50, 50, 50, 0.6);
-    border-bottom: solid 3px #ebebeb;
+    border-bottom: solid 3px #dbdbdb;
     color: #FFF;
     font-size: 16px;
     font-weight: normal;
@@ -76,7 +76,7 @@
     margin: 30px 0px;
     width: 26%;
     height: 200px;
-    border: groove 1px #dddddd;
+    border: outset 1px rgba(200, 200, 200, 0.8);
     border-radius: 5px;
 }
 
@@ -135,7 +135,7 @@
     border: groove 2px #FFF;
     color: #444;
     font-size: 14px;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 #course1 a:hover, 
@@ -146,9 +146,9 @@
 #course6 a:hover,
 #course7 a:hover,
 #course8 a:hover {
-    background-color: rgba(225, 225, 225, 0.8);
+    background-color: rgba(225, 225, 225, 0.9);
     border: groove 2px #EEE;
-    color: #E48;
+    color: #C66;
 }
 
 #buttCour_1, 
