@@ -1,3 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 15px 0px;
+	/* background-color: #808080; */
+}
+
+/**************** div style *****************/
+#Container {
+	width: 95%;
+	margin: 0px auto 15px;
+	padding: 20px 6px;
+	background-image: url(../images/back.jpg);
+	background-size: cover;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border: outset 2px #999;
+	border-bottom: solid 10px rgba(0, 217, 255, 0.9);	
+}
+
+/**************** menu style *****************/
+#Menu {
+	width: 98%;	
+	height: 32px;	
+	margin: auto;
+}
+
+#Menu h1 {
+	float: left;
+	margin: 0px;
+	padding: 0px 15px;
+	color: #dddddd;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-weight: bold;
+	font-size: 145%;
+	text-transform: capitalize;	
+}
+
+#Menu ul {
+	float: right;
+	margin: 0px;
+	margin-top: 4px;
+	padding: 0px 15px;	
+	list-style: none;
+}
+
+#Menu li {
+	float: left;
+	margin-left: 6px;
+}
+
+#Menu li a {
+	padding: 3px 25px;
+	background-color: rgba(225, 225, 225, .9);
+	border: groove 1px #CCC;
+	color: #444;
+	font-family: Sans-serif;
+	font-size: 80%;
+	text-transform: Capitalize;
+	text-decoration: none;
+}
+
+#Menu li a:hover {
+	padding-bottom: 5px;
+	background-color: #DDD;
+	border: outset 1px #EEE;			
+	color: #C66;
+}
+
+/**************** table style *****************/
+table {
+	width: 100%;
+	margin: 0px auto;	
+	padding: 0px;
+	border: none;
+	font-family: Verdana, sans-serif;
+}
+
+th {
+	padding: 5px 0px;
+	background-color: rgba(50, 50, 50, .8);			
+	border: solid 1px #444;
+	font-size: 85%;
+	color: #EEE;	
+}
+
+td {
+	padding: 4px 15px;
+	background-color: rgba(225, 225, 225, .8);			
+	border: solid 1px #EEE;
+	font-size: 75%;
+	color: #444;
+}
+/**************** column width app development *****************/
+#AppColOne { width: 5%; }
+#AppColTwo { width: 50%; }
+#AppColThree { width: 20%; }
+#AppColFour { width: 10%; }
+#AppColFive { width: 5%; }
+#AppColSix { width: 10%; }
+
+/**************** column width engineering *****************/
+#EngColOne { width: 5%; }
+#EngColTwo { width: 48%; }
+#EngColThree { width: 28%; }
+#EngColFour { width: 4%; }
+#EngColFive { Width: 5%; }
+#EngColSix { width: 10%; }
+
+/**************** column width video Tutorial  *****************/
+#colOne { width: 5%; }
+#colTwo { width: 50%; }
+#colThree { width: 20%; }
+#colFour { width: 10%; }
+#colFive { width: 5%; }
+#colSix { width: 10%; }
+
+#colSeven { width: 7%; }
+#colEight { width: 8%; }
+
+#colStyleOne { text-align: left; padding: 5px 15px; }
+
+/**************** link style *****************/
+a {
+	display: block;
+	padding: 5px 0px;
+	background-color: #AAA;
+	font-size: 75%;
+	font-weight: bold;
+	color: #DDD;
+	text-decoration: none;
+	text-align: center;
+}
+a:hover {
+	padding: 5px 0px;
+	background-color: #555;	
+	color: #00d9ff;
+}
+
+/*****************************************/
+#color_1 { background-color:#369; color: #DDD; width: 25% }
+#color_2 { background-color:#963; color: #DDD; width: 25%  }
+#color_3 { background-color: darkolivegreen; color: #DDD; width: 25%  }
+#color_4 { background-color:#936; color: #DDD; width: 25%  }
+#color_5 { background-color: darkcyan; color: #DDD; width: 25%  }
+#color_6 { background-color: darkkhaki; color: #DDD; width: 25%  }
+#color_7 { background-color: indigo; color: #DDD; width: 25%  }
+
+/*****************************************/
+pre {
+	padding: 10px 36px;
+	color: #FFF;
+	font-size: 18px;
+}
+
+/**************** courses *****************/
 #course1, #course2, #course3, #course4, 
 #course5, #course6, #course7, #course8 {
     width: 94.4%;
