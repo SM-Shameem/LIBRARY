@@ -171,7 +171,8 @@ pre {
     width: 94.5%;
     margin: 15px auto;
     padding: 10px;
-    background-color: rgba(200, 200, 200, 0.8);	
+    background-image: linear-gradient(to bottom right, rgba(150, 125, 0, .3), rgba(150, 0, 0, 0.3));
+    /* background-color: rgba(200, 200, 200, 0.6);	 */
     border: outset 1px rgba(175, 175, 175, 0.8);
     border-radius: 4px;
     font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
