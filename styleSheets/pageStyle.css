@@ -15,7 +15,6 @@ body {
 	height: 375px;
 	padding-top: 30px;
 	border-bottom: solid 2px red;
-	
 	background-image: url(../images/LOUSKYi.jpg);
 	background-size:cover;
 }
@@ -23,7 +22,8 @@ body {
 #Body {
 	width: 100%;
 	height: auto;
-	border-top: solid 10px rgba(0, 50, 75, 0.8);
+	border-top: solid 10px rgba(75, 75, 50, 0.4);
+	border-bottom: solid 10px rgba(75, 75, 50, 0.4);
 }
 
 #Show {
@@ -39,7 +39,7 @@ body {
 	height: 100px;
 	background-image: url(../images/footerImage-1.jpg);
 	background-size: cover;
-	border-top: solid 10px rgba(275, 175, 0, 0.8);
+	border-top: solid 2px red;
 }
 
 #Footer p {
