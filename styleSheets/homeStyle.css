@@ -18,12 +18,12 @@
 	height: auto;
 	margin: auto;	
 	padding: 20px;
-	background-color: rgba(200, 200, 200, 0.4);	
+	background-image: linear-gradient(to bottom right, rgba(125, 130, 100, 0.2), rgba(75, 125, 0, 0.2));
 	border-bottom: solid 1px rgba(202, 202, 202, 0.6);	
 }
 
 #HomeInfo a:hover #Section {
-	background-color: rgba(66, 66, 66, 0.8);
+	background-color: rgba(50, 50, 50, 0.9);
 	border-bottom: solid 1px rgba(163, 163, 163, 0.6);
 	color:#DDD;
 }

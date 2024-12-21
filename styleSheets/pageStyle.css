@@ -12,9 +12,10 @@ body {
 
 #indexHead {
 	width: 100%;
-	height: 376px;
+	height: 375px;
 	padding-top: 30px;
 	border-bottom: solid 2px red;
+	
 	background-image: url(../images/LOUSKYi.jpg);
 	background-size:cover;
 }
@@ -22,7 +23,7 @@ body {
 #Body {
 	width: 100%;
 	height: auto;
-	border-top: solid 10px rgba(201, 201, 201, 0.4);
+	border-top: solid 10px rgba(0, 50, 75, 0.8);
 }
 
 #Show {
