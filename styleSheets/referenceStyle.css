@@ -160,8 +160,8 @@ pre {
     width: 94.4%;
     margin: 15px auto;
     padding: 10px;
-    background-color: rgba(200, 200, 200, 0.4);	
-	border: outset 1px rgba(224, 224, 224, 0.8);
+    background-color: rgba(220, 220, 200, 0.4);	
+	border: outset 1px rgba(225, 225, 225, 0.8);
     border-radius: 4px;
     font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 }
@@ -172,8 +172,7 @@ pre {
     margin: 15px auto;
     padding: 10px;
     background-image: linear-gradient(to bottom right, rgba(150, 125, 0, .3), rgba(150, 0, 0, 0.3));
-    /* background-color: rgba(200, 200, 200, 0.6);	 */
-    border: outset 1px rgba(175, 175, 175, 0.8);
+    border: outset 1px rgba(150, 125, 0, 0.4);
     border-radius: 4px;
     font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 }
