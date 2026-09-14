@@ -12,29 +12,29 @@ body {
 
 #indexHead {
 	width: 100%;
-	height: 375px;
-	padding-top: 30px;
+	height: 425px;
+	padding-top: 20px;
 	border-bottom: solid 2px red;
 	background-image: url(../images/LOUSKYi.jpg);
 	background-size:cover;
 }
 
-#Body {
+#indexBody {
 	width: 100%;
 	height: auto;
 	border-top: solid 10px rgba(75, 75, 50, 0.4);
 	border-bottom: solid 10px rgba(75, 75, 50, 0.4);
 }
 
-#Show {
+/* #Show {
 	width: 100%;
 	height: 852px;
 	margin: 0px;
 	padding: 0px;
 	border:none;
-}
+} */
 
-#Footer {
+#indexFooter {
 	width: 100%;
 	height: 100px;
 	background-image: url(../images/footerImage-1.jpg);
@@ -42,7 +42,7 @@ body {
 	border-top: solid 2px red;
 }
 
-#Footer p {
+#indexFooter p {
 	width: 96%;
 	margin: auto;
 	padding: 38px 0px;

@@ -1,18 +1,30 @@
 ﻿@charset "utf-8";
 /* CSS Document */
 
-#Title {
-	float: left;
+#indexTitle {
+	padding-top: 10px;
+	height: 80px;
+	/* background-color: rgba(2, 2, 2, 0.2);	 */
+}
+
+#mainTitle {
 	margin-left: 50px;
+	padding: 0px;
+	width: 20%;
+	float: left;
+}
+
+#subTitle {
+	width: 65%;
 	background-color: rgba(80, 80, 80, 0.6);
 	border-top: outset 1px rgb(200, 200, 0);
 	border-bottom: outset 2px rgb(255, 255, 0);
 	border-radius: 2px;
 }
 
-#Title h2 {
+#subTitle h2 {
 	margin: 0px auto;
-	padding: 1px 30px;
+	padding: 1px;
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
 	font-size: 140%;
 	color: #EEE;
@@ -20,9 +32,9 @@
 	text-align: center;
 }
 
-#subTitle p {
+#mainTitle p {
 	display: inline-block;
-	margin: 50px -170px;
+	margin: 10px auto;
 	font-family: cursive;
 	font-size: 100%;
 	color: #aaa000;
@@ -46,24 +58,24 @@
 	display: none;
 	position: absolute;
 	margin-left: -3px;
-	border-top: solid 2px rgba(225, 225, 225, .4);
+	border-top: solid 4px rgba(225, 225, 225, .1);
 }
 
 #Menu ul ul ul {
 	position: absolute;
-	margin-top: -2.45em;
+	margin-top: -2.55em;
 	margin-left: 7.3em;
 }
 
 #Menu ul li:last-child ul ul {
 	position: absolute;
-	margin-top: -2.40em;
+	margin-top: -2.55em;
 	margin-left: -7.66em;
 }
 
 #Menu ul li:last-child ul ul ul {
 	position: absolute;
-	margin-top: -2.40em;
+	margin-top: -2.55em;
 	margin-left: -7.67em;
 }
 
